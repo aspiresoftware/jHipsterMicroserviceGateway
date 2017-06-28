@@ -1,0 +1,27 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "user",
+            "otherEntityName": "user",
+            "relationshipType": "one-to-one",
+            "otherEntityField": "login",
+            "ownerSide": true,
+            "otherEntityRelationshipName": "customer"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "firstName",
+            "fieldType": "String",
+            "fieldValidateRules": []
+        }
+    ],
+    "changelogDate": "20170623104103",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "customer",
+    "pagination": "infinite-scroll",
+    "microserviceName": "jHipsterMicroserviceApp",
+    "searchEngine": false
+}
